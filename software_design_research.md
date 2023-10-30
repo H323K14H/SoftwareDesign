@@ -42,4 +42,12 @@ As it concentrates on defining and organising functions or procedures before com
 
 The best use cases for a class diagram are within the framework of object-oriented design techniques. It is a diagram that shows how classes relate to one another in an object-oriented system. Class diagrams are crucial for modelling object-oriented systems, such as software programmes and databases, as they give a visual depiction of the system's structure.
 
+## Four Pillars of Object-oriented Programming:
 
+Encapsulation is the idea of combining data and the methods that manipulate it into a single unit, called a class. Data protection and a clear interface for interacting with the object are provided, and access to certain components of the object is restricted while others are left exposed.
+
+A new class (the subclass or derived class) can inherit traits and behaviours from an existing class (the superclass or base class) thanks to inheritance. It creates a "is-a" relationship between classes and encourages code reuse.
+
+The ability to treat objects of different classes as belonging to a common superclass is known as polymorphism. It supports method overriding, which improves flexibility and extensibility by allowing various classes to provide their own method implementations.
+
+Abstraction: By focusing on the important aspects of a class and disregarding the rest, abstraction is the process of simplifying a complex reality. It offers a high-level, clear picture of the characteristics and behaviour of an object.
