@@ -52,10 +52,27 @@ The ability to treat objects of different classes as belonging to a common super
 
 Abstraction: By focusing on the important aspects of a class and disregarding the rest, abstraction is the process of simplifying a complex reality. It offers a high-level, clear picture of the characteristics and behaviour of an object.
 
-## Strategy Pattern in Functional and Object-Oriented Systems
+## Strategy Pattern in Functional and Object-oriented Systems
 
 A behavioural design pattern called the Strategy Pattern encapsulates a family of algorithms and defines them so they can be used interchangeably. Without changing its structure, it enables the client to select an algorithm at runtime from a family of algorithms.
 
 The Strategy Pattern would be implemented in a functional system by designating procedures or functions as strategies. Depending on the chosen approach, the client code would call these functions, causing behaviour to change dynamically.
 
 The Strategy Pattern is usually implemented with classes and interfaces in an object-oriented system. Every tactic is contained within a distinct class that carries out a shared interface. By switching objects that implement the same interface, the client code can transition between different strategies.
+
+## Design Methodology for an Online Payment System
+
+It is best to use an Agile Design Methodology, more specifically an Iterative and Incremental Development variation, when developing an online payment system that needs to function across multiple industries, such as ordering takeaway or buying clothes.
+
+### Justifcation:
+1) Adaptability: Agile approaches are renowned for their capacity to adjust to evolving needs. Being able to react swiftly to shifting demands is essential in a dynamic market where the payment system must serve multiple industries.
+
+2) Constant Feedback: Agile development approaches encourage stakeholders to provide feedback on a regular basis. This means that the system can adapt to real user needs and experiences, guaranteeing optimal market fit.
+
+3) Delivering a working product rapidly and adding features piecemeal makes it easier to enter new markets without requiring a comprehensive initial design. This technique is known as incremental delivery. The project can be divided into smaller increments or iterations.
+
+4) Interdepartmental Teams: Agile places a strong emphasis on interdepartmental teams that can work together on different parts of the system, which is advantageous for a system that needs to service several industries.
+
+5) Design with the user in mind: Agile strongly emphasises user-centered design and engagement. This method aids in the development of a user-friendly, industry-neutral payment system.
+
+For a payment system that wants to capture as much of the market as possible across a variety of industries, the development team can maintain flexibility, responsiveness, and customer-focusedness by adhering to Agile principles.
