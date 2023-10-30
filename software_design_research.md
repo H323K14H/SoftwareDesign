@@ -27,3 +27,19 @@
 4) Stamp Coupling.
 5) Data Coupling
 6) Content Coupling.
+
+
+
+## Top-down and Bottom-up design:
+
+A method known as "top-down design" breaks down a system into smaller, more manageable parts by starting with the highest-level modules or components. It is a top-down method that commences with the general structure of a system and progressively disassembles it into smaller parts.
+
+The opposite strategy is called "Bottom-Up Design," which begins with the smallest, most fundamental parts and works its way up to larger, more intricate modules. It's a bottom-up method that starts with separate components and works its way up to a finished system.
+
+As it concentrates on defining and organising functions or procedures before combining them to create a system, function-oriented design frequently corresponds more with the Bottom-Up approach. However, the particular project needs will determine whether to use a top-down or bottom-up design approach.
+
+## Class Diagrams:
+
+The best use cases for a class diagram are within the framework of object-oriented design techniques. It is a diagram that shows how classes relate to one another in an object-oriented system. Class diagrams are crucial for modelling object-oriented systems, such as software programmes and databases, as they give a visual depiction of the system's structure.
+
+
