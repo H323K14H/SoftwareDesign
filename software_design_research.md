@@ -51,3 +51,11 @@ A new class (the subclass or derived class) can inherit traits and behaviours fr
 The ability to treat objects of different classes as belonging to a common superclass is known as polymorphism. It supports method overriding, which improves flexibility and extensibility by allowing various classes to provide their own method implementations.
 
 Abstraction: By focusing on the important aspects of a class and disregarding the rest, abstraction is the process of simplifying a complex reality. It offers a high-level, clear picture of the characteristics and behaviour of an object.
+
+## Strategy Pattern in Functional and Object-Oriented Systems
+
+A behavioural design pattern called the Strategy Pattern encapsulates a family of algorithms and defines them so they can be used interchangeably. Without changing its structure, it enables the client to select an algorithm at runtime from a family of algorithms.
+
+The Strategy Pattern would be implemented in a functional system by designating procedures or functions as strategies. Depending on the chosen approach, the client code would call these functions, causing behaviour to change dynamically.
+
+The Strategy Pattern is usually implemented with classes and interfaces in an object-oriented system. Every tactic is contained within a distinct class that carries out a shared interface. By switching objects that implement the same interface, the client code can transition between different strategies.
